@@ -1,5 +1,8 @@
 <?php
 // error_log( 'class-comment-form-field.php' );
+// if you uncomment this error_log line,
+// you'll see this file is ONLY loaded
+// when this class is instantiated (any page with a contact form)
 class Comment_Form_Field {
 	public function __construct() {
 	}
